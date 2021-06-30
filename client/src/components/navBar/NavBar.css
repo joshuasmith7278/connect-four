@@ -1,0 +1,24 @@
+.box {
+    padding: 14px;
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color: rgb(228, 163, 163);
+    width: 100%;
+}
+
+.navBar  {
+    display:flex;
+    align-items:center;
+    margin: 0 auto;
+    width: 900px;
+    
+}
+
+
+
+.navBar h1 {
+    font-size: 32px;
+    padding: 4px;
+    color: rgb(82, 7, 7);
+    
+}
