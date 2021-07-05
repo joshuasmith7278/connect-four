@@ -1,0 +1,38 @@
+.HomeMenuContainer {
+    background-color: rgb(247, 119, 168);
+    width: 550px;
+    height: 600px;
+    margin: 0 auto;
+    position: relative;
+    padding: 100px;
+    margin-bottom: 100px;
+    border: 1px solid black;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 8px 100px 8px 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.playButtons {
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 8px 8px 8px 8px;
+    background-color: rgb(211, 209, 177);
+  
+}
+
+.playButtons:hover {
+    background-color: rgb(99, 147, 179);
+}
+
+.quickPlay {
+    margin: 10px;
+    height: 80px;
+}
+
+.friendPlay {
+    margin: 10px;
+    height: 80px;
+}

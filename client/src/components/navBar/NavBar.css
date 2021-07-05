@@ -1,24 +1,49 @@
-.box {
-    padding: 14px;
-    padding-left: 40px;
-    padding-right: 40px;
-    background-color: rgb(228, 163, 163);
+.navBar {
+    background-color: rgb(18, 148, 42);
     width: 100%;
-}
-
-.navBar  {
-    display:flex;
-    align-items:center;
-    margin: 0 auto;
-    width: 900px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     
 }
 
+.navButton {
+    transition-duration: 0.4ms;
+    background-color: white;
+    color: black;
+    font-size: 20px;
+    transition-duration: 0.4s;
+    border: 2px black;
+    border-radius: 5px;
+    width: 120px;
+    height: 50px;
+
+}
+
+.navButton:hover {
+    background-color: rgb(15, 196, 96);
+    color: white;
+}
+
+.helpButton {
+    margin-left: 40px
+}
+
+.loginButton {
+    margin-right: 40px;
+}
 
 
 .navBar h1 {
-    font-size: 32px;
-    padding: 4px;
-    color: rgb(82, 7, 7);
+    font-size: 60px;
+    font-family: OCT A Std, monospace;
+    padding: 5px;
+    text-decoration: none;
+    color: black;
+    font-weight: 600; 
     
+
 }
+
